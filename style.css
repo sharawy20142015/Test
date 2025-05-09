@@ -12,9 +12,7 @@ body {
 .st-emotion-cache-t1wise{
     padding: 0;
 }
-.stMainBlockContainer{
-    padding:0
-}
+
 .st-emotion-cache-hnylo6{
     padding: 0;
     gap: 0;
@@ -27,25 +25,22 @@ body {
   gap: 0;
 }
 
-._terminalButton_rix23_138{
-  visibility: hidden;
-}
-
 /* حاوية الخلفية */
 .background-bar {
   position: relative;
   top: 0;
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color:#00B050;
 }
 
 /* الزرار داخل الخلفية */
-.st-key-Sales button, .st-key-Purchase button {
+.st-key-Sales button, .st-key-Purchase button,
+.st-key-Warehouse button,.st-key-Daily button {
   position: absolute; /* وضع الزر فوق الخلفية */
   top: 100%; /* تحديد المسافة من الأعلى */
   left: 50%; /* تحديد المسافة من اليسار */
-  transform: translate(-50%, -90%); /* لضبط الزر في المنتصف بالضبط */
+  transform: translate(-50%, -70%); /* لضبط الزر في المنتصف بالضبط */
   background-color:#00B050;
   border: none;
   padding: 12px 24px;
@@ -61,7 +56,8 @@ body {
   
 }
 
-.st-key-Sales button:hover, .st-key-Purchase button:hover {
+.st-key-Sales button:hover, .st-key-Purchase button:hover,
+.st-key-Warehouse button:hover,.st-key-Daily button:hover  {
   background-color: #666; /* تأثير عند التمرير فوق الزر */
   color: white;
 }
