@@ -1,0 +1,6 @@
+pandas
+streamlit
+plotly
+gspread
+numpy
+streamlit_option_menu

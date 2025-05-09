@@ -1,0 +1,71 @@
+/* 
+/* إلغاء الـ margin والـ padding الافتراضيين */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.stAppHeader{
+    display: none;
+}
+
+.st-emotion-cache-t1wise{
+    padding: 0;
+}
+
+.st-emotion-cache-hnylo6{
+    padding: 0;
+    gap: 0;
+}
+.st-emotion-cache-y2gpec{
+    gap:0
+}
+
+.stVerticalBlock{
+  gap: 0;
+}
+
+/* حاوية الخلفية */
+.background-bar {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color:#00B050;
+}
+
+/* الزرار داخل الخلفية */
+.st-key-Sales button, .st-key-Purchase button {
+  position: absolute; /* وضع الزر فوق الخلفية */
+  top: 100%; /* تحديد المسافة من الأعلى */
+  left: 50%; /* تحديد المسافة من اليسار */
+  transform: translate(-50%, -90%); /* لضبط الزر في المنتصف بالضبط */
+  background-color:#00B050;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 56px;
+  font-style: italic;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-wrap: nowrap;
+  width: auto; /* عرض الزر */
+  color: white;
+  
+}
+
+.st-key-Sales button:hover, .st-key-Purchase button:hover {
+  background-color: #666; /* تأثير عند التمرير فوق الزر */
+  color: white;
+}
+
+p, ol, ul, dl {
+  margin: 0px 0px 1rem;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: 600;}
+
+.chart-wrapper{
+  padding-top: 7%;
+}
