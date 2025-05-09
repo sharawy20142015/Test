@@ -27,6 +27,10 @@ body {
   gap: 0;
 }
 
+._terminalButton_rix23_138{
+  visibility: hidden;
+}
+
 /* حاوية الخلفية */
 .background-bar {
   position: relative;
