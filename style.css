@@ -20,6 +20,9 @@ body {
 .st-emotion-cache-y2gpec{
     gap:0
 }
+.stMainBlockContainer{
+  padding: 0;
+}
 
 .stVerticalBlock{
   gap: 0;
